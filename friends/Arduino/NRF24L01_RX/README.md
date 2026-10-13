@@ -1,5 +1,5 @@
 # nRF24L001+ demo
-this is the Arduino-based "friend" for [spi_24L01_tx](https://github.com/cnlohr/ch32v003fun/tree/master/examples/spi_24L01_tx)
+this is the Arduino-based "friend" for [spi_24L01_tx](https://github.com/cnlohr/ch32fun/tree/master/examples/spi_24L01_tx)
 The other half for Arduino is [here](https://github.com/recallmenot/ch32v003fun_friends/tree/main/Arduino/NRF24L01_TX)
 
 ## nRF24L01(+) library

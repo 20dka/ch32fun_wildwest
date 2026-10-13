@@ -6,7 +6,7 @@
 
 // includes
 #include<stdint.h>								//uintN_t support
-#include"../ch32v003fun/ch32v003fun.h"
+#include"../ch32fun/ch32fun.h"
 
 
 
@@ -67,9 +67,9 @@ To alter option bytes data1 and data0:
 
 MAIN FLASH: both
 
-in your Makefile, after "include ../../ch32v003fun/ch32v003fun.mk", inject your linker file:
+in your Makefile, after "include ../../ch32fun/ch32fun.mk", inject your linker file:
 LDFLAGS+=-T nonvolatile.ld 
-The reason for injecting it afterwards: FLASH needs to be defined beforehand by ch32v003fun.ld
+The reason for injecting it afterwards: FLASH needs to be defined beforehand by ch32fun.ld
 
 For any changes to the Makefile or nonvolatile.ld to apply, running "make clean" before "make" may be necessary.
 

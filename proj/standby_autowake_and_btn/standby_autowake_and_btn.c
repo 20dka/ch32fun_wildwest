@@ -2,7 +2,7 @@
 // Could be defined here, or in the processor defines.
 #define SYSTEM_CORE_CLOCK 48000000
 
-#include "../../ch32v003fun/ch32v003fun.h"
+#include "../../ch32fun/ch32fun.h"
 
 #define STANDBY_RESTORE_HSI_48MHz
 #include "../../lib/ch32v003_standby.h"

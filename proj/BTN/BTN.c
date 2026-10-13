@@ -2,7 +2,7 @@
 // Could be defined here, or in the processor defines.
 #define SYSTEM_CORE_CLOCK 48000000
 
-#include "../../ch32v003fun/ch32v003fun.h"
+#include "../../ch32fun/ch32fun.h"
 
 #define CH32V003_GPIO_ITER_IMPLEMENTATION
 #include "../../lib/ch32v003_GPIO_branchless.h"
